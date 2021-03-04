@@ -1,7 +1,7 @@
 # Author:   Fatih Mert Doğancan
 # Github:   github@fatihmert
 # WWW:      https://fatihmert.dev
-# Repo:     
+# Repo:     https://github.com/fatihmert/Docker-Quick-CLI-Commands
 
 ## Basics
 alias d.rm='docker rm -f'
