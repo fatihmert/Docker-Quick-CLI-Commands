@@ -44,7 +44,7 @@ d.kill(){
 # Find containerId from container image/name
 # Ex: d.id go_api
 d.id(){
-    d.psa | grep $1 | awk '{print $4;}'
+    docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Image}}" | grep $1 | awk '{print $1;}'
 }
 
 
