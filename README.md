@@ -45,10 +45,12 @@ source /etc/bash.bashrc
 | d.vols |  docker volume ls  |
 | d.psa | docker ps --format "table {{.Status}}\t{{.ID}}\t{{.Names}}\t{{.Image}}" |
 | d.exec | docker exec -it |
-| dc.up | docker-compose up |
-| dc.upd | docker-compose up -d |
-| dc.upb | docker-compose up --build |
-| dc.s | docker-compose stop |
+| dc.up | docker compose up |
+| dc.upd | docker compose up -d |
+| dc.upb | docker compose up --build |
+| dc.s | docker compose stop |
+| dc.d | docker compose down |
+| dc.r | docker compose restart |
 
 
 Basic commands have been if has args, it is.

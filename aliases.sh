@@ -26,10 +26,12 @@ d.sh(){
 }
 
 ## Compose
-alias dc.up='docker-compose up'
-alias dc.upd='docker-compose up -d'
-alias dc.upb='docker-compose up --build'
-alias dc.s='docker-compose stop'
+alias dc.up='docker compose up'
+alias dc.upd='docker compose up -d'
+alias dc.upb='docker compose up --build'
+alias dc.s='docker compose stop'
+alias dc.d='docker compose down'
+alias dc.r='docker compose restart'
 
 
 ## Others
